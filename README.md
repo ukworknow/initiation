@@ -20,13 +20,13 @@
         - Add a form with username field, password field, and submit button
         - Show success and error messages
         - Use axios and send a http POST request to the API
-            - URL: http://api.intelliscan.io/user/sign-in/
+            - URL: https://api.intelliscan.io/user/sign-in/
             - data:  `{username: <username>, password: <password>}`
         - Save JWT token to state (use React state, not redux)
         - On success, redirect to dashboard page
     - Dashboard page
         - Use an effect hook to load domains on page load
         - Use axios to send a http GET request to the API
-            - URL: http://api.intelliscan.io/user/domains/
+            - URL: https://api.intelliscan.io/user/domains/
             - add header "token" and set the value to the JWT token from successful login
         - Show list of returned domains on a card on the dashboard page
