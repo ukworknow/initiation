@@ -21,7 +21,7 @@
         - Show success and error messages
         - Use axios and send a http POST request to the API
             - URL: http://api.intelliscan.io/user/sign-in/
-            - data:  {username: <username>, password: <password>} 
+            - data:  `{username: <username>, password: <password>}`
         - Save JWT token to state (use React state, not redux)
         - On success, redirect to dashboard page
     - Dashboard page
