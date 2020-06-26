@@ -15,8 +15,8 @@
     - Add reactstrap (https://reactstrap.github.io/) and use it for page components
     
 #### Page details
-- Create 2 pages, sign-up and dashboard
-    - Sign-up page
+- Create 2 pages, sign-in and dashboard
+    - Sign-in page
         - Add a form with username field, password field, and submit button
         - Show success and error messages
         - Use axios and send a http POST request to the API
